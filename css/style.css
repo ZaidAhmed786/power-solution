@@ -1,0 +1,315 @@
+.top-bar-1 {
+    background-color: #07363c;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0;
+    position: relative;
+  }
+.top-bar {
+    background-color: #07363c;
+    color: #fff;
+    font-size: 14px;
+    
+    padding: 5px 0;
+    position: relative;
+  }
+  .top-bar .info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  .top-bar i {
+    margin-right: 5px;
+  }
+  .top-arrow {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #07363c;
+  }
+
+  .navbar-toggler {
+    border-color: black;
+  }
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  /* Navbar */
+  .navbar {
+    padding: 30px 0 10px;
+    background-color: #fff;
+  }
+  .navbar-brand img {
+    height: 120px;
+  }
+  .navbar-nav {
+    margin: auto;
+  }
+  .nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+  .nav-link.active {
+    color: #00b894;
+  }
+  .search-box {
+    background-color: #b8cace;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+  .search-box i {
+    font-size: 16px;
+    color: #000;
+  }
+
+
+  .carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+
+
+  .c-u {
+    top: 12%;
+    /* left: -10%; */
+    position: absolute;
+    right: 35%;
+    bottom: 1.25rem;
+    left: 8%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: white;
+    
+  }
+  .c-u h5 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .c-u h1 {
+    font-size: 80px;
+    font-weight: 900;
+    margin: 10px 0;
+  }
+  .c-u p {
+    width: 80%;
+    font-size: 18px;
+    color: white;
+  }
+  .read-more {
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    position: relative;
+  }
+  .read-more::after {
+    content: '→';
+    position: absolute;
+    right: -20px;
+    color: red;
+    font-size: 20px;
+  }
+  /* Custom indicators */
+  .custom-indicators {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .custom-indicators button {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  .custom-indicators .active {
+    color: #fff;
+    position: relative;
+  }
+  .custom-indicators .active::before {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  
+
+  .intro-section {
+    padding: 60px 0;
+  }
+  .intro-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .intro-section p {
+    font-size: 18px;
+    color: #666;
+  }
+  .intro-content h6 {
+    color: green;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .intro-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .intro-content a {
+    display: block;
+    color: green;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .intro-content a::before {
+    content: ">";
+    margin-right: 8px;
+    color: green;
+  }
+  .intro-image img {
+    width: 90%;
+    height: auto;
+    
+    border-radius: 10px;
+  }
+
+  .hero {
+    background: url('/images/close-up-students-classroom.webp') center center/cover no-repeat;
+    color: white;
+    background-position: center top ;
+    text-align: center;
+    padding: 30px 30px;
+  }
+  .why-choose-us {
+    padding: 60px 20px;
+  }
+  .feature-list li {
+    margin-bottom: 10px;
+    color: #00b894;
+  }
+
+  .work-process {
+    padding: 60px 20px;
+  }
+  .work-process img {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+  }
+  .work-process p{
+    color: #666;
+    font-size: 18px;
+  }
+  .work-process .step-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #03363D;
+    color: white;
+    padding: 60px 20px 20px 20px;
+  }
+  .footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .footer a:hover {
+    color: #00c896;
+  }
+  .footer .divider {
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+  }
+  .footer .payment-icons img {
+    width: 100%;
+    margin-right: 10px;
+  }
+  .footer p {
+    color: #ccc;
+  }
+  .footer .highlight {
+    color: #00c896;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 786px) {
+    .top-bar .info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+      }
+    .c-u {
+        top: 12%;
+        /* left: -10%; */
+        position: absolute;
+        right: 15%;
+        bottom: 1.25rem;
+        left: 8%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: white;
+        
+      }
+      .c-u h5 {
+        font-size: 22px;
+        letter-spacing: 2px;
+        color: white;
+      }
+      .c-u h1 {
+        font-size: 50px;
+        font-weight: 900;
+        margin: 10px 0;
+      }
+      .c-u p {
+        width: 80%;
+        font-size: 18px;
+        color: white;
+      }
+      .footer .payment-icons img {
+        width: 250px;
+        margin-right: 10px;
+      }
+  }
