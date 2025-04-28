@@ -1,0 +1,40 @@
+
+  .section-title {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #083941;
+  }
+  .section-content {
+    font-size: 17px;
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+
+  .container-refund {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .policy-heading-refund {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .section-title-refund {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  .section-content-refund {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  ul {
+    margin-top: 10px;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 20px;
+  }
